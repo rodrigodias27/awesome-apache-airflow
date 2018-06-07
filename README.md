@@ -27,6 +27,10 @@ This is a curated list of resources about [Apache Airflow](https://airflow.apach
 * [Robert Chang](https://medium.com/@rchang) - Blog posts about data engineering with Apache Airflow, explains why and has examples in code.
 * [test_dags](https://gist.github.com/criccomini/2862667822af7fae8b55682faef029a7) - a more complete solution for DAG integrity tests ([first Circle of Data’s Inferno are the first](https://medium.com/@ingwbaa/datas-inferno-7-circles-of-data-testing-hell-with-airflow-cef4adff58d8).
 * [Example Dag with BigQueryOperator](https://github.com/tfayyaz/awesome-airflow/blob/master/examples/dags/bigquery_github_trends_v1.py)
+* [Atronomer.io Example Dags **Deprecated**](https://github.com/astronomerio/example-dags)
+* [Example Airflow DAGs](https://github.com/airflow-plugins/Example-Airflow-DAGs/)
+* [**Very good example using template vars PythonOperator**](https://github.com/airflow-plugins/Example-Airflow-DAGs/blob/master/poc/imap_example.py)
+* [Airflow Plugins](https://github.com/airflow-plugins)
 
 **WePay Case**
 * [Building WePay's data warehouse using BigQuery and Airflow](https://wecode.wepay.com/posts/wepays-data-warehouse-bigquery-airflow) - The inestimable [Chris Riccomini](https://twitter.com/criccomini) describes how [WePay](https://go.wepay.com/), one of the first adopters of Airflow, integrated into their [Google Cloud Compute](https://cloud.google.com/compute/) environment.
