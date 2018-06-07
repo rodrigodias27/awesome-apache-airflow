@@ -4,6 +4,7 @@ This is a curated list of resources about [Apache Airflow](https://airflow.apach
 
 ## Contents
 - [Vital links](#vital-links)
+- [Favorite links](#favorite-links)
 - [Airflow deployment solutions](#airflow-deployment-solutions)
 - [Introductions and tutorials](#introductions-and-tutorials)
 - [Best practices, lessons learned and cool use cases](#best-practices-lessons-learned-and-cool-use-cases)
@@ -18,6 +19,19 @@ This is a curated list of resources about [Apache Airflow](https://airflow.apach
 * Official website: [Apache Airflow](https://airflow.apache.org/)
 * Latest release: [1.9.0-incubating](https://cwiki.apache.org/confluence/display/AIRFLOW/Announcements#Announcements-Jan2,2018)
 * Official Twitter account: [Apache Airflow](https://twitter.com/ApacheAirflow)
+
+## Favorite links
+* [How Quizlet uses Apache Airflow in practice](https://medium.com/@dustinstansbury/how-quizlet-uses-apache-airflow-in-practice-a903cbb5626d)
+* [Airflow Lessons from the Data Engineering Front in Chicago](https://medium.com/stanton-ventures-insights/airflow-lessons-from-the-data-engineering-front-in-chicago-9489e6ad5c3d) - [Alison Stanton](https://twitter.com/alison985) provides a list of tips to avoid gotchas in Airflow jobs.
+* [Data’s Inferno: 7 Circles of Data Testing Hell with Airflow](https://medium.com/@ingwbaa/datas-inferno-7-circles-of-data-testing-hell-with-airflow-cef4adff58d8) - The Wholesale Banking Advanced Analytics team at ING details how they torture test their Airflow DAGs before deployment.
+* [Robert Chang](https://medium.com/@rchang) - Blog posts about data engineering with Apache Airflow, explains why and has examples in code.
+* [test_dags](https://gist.github.com/criccomini/2862667822af7fae8b55682faef029a7) - a more complete solution for DAG integrity tests ([first Circle of Data’s Inferno are the first](https://medium.com/@ingwbaa/datas-inferno-7-circles-of-data-testing-hell-with-airflow-cef4adff58d8).
+
+**WePay Case**
+* [Building WePay's data warehouse using BigQuery and Airflow](https://wecode.wepay.com/posts/wepays-data-warehouse-bigquery-airflow) - The inestimable [Chris Riccomini](https://twitter.com/criccomini) describes how [WePay](https://go.wepay.com/), one of the first adopters of Airflow, integrated into their [Google Cloud Compute](https://cloud.google.com/compute/) environment.
+* [Airflow at WePay](https://wecode.wepay.com/posts/airflow-wepay)
+* [BigQuery at WePay](https://wecode.wepay.com/posts/bigquery-wepay)
+* [Training machine learning models with Airflow and BigQuery](https://wecode.wepay.com/posts/training-machine-learning-models-with-airflow-and-bigquery)
 
 ## Airflow deployment solutions
 * [Puckel's Docker Image](https://github.com/puckel/docker-airflow) - [@Puckel_](https://twitter.com/Puckel_)'s well-crafted Docker image has become the base for many Airflow installations.  It is regularly updated and closely tracks the official Apache releases.
